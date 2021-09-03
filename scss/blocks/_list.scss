@@ -1,0 +1,37 @@
+.list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+
+    &__item {
+        margin: 0;
+        padding: 31px 51px;
+        margin-right: 31px;
+        border: 1px solid rgba(165, 160, 160, 0.144);
+    }
+
+    &__img {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 21px;
+    }
+
+    &__text {
+        margin: 0;
+        padding: 0;
+        font-family: "Futura";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #333333;
+    }
+
+    &__text-1 {
+        width: 110px;
+    }
+}
